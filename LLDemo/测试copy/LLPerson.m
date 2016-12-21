@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  LLPerson.m
 //  LLDemo
 //
 //  Created by galileio on 2016/12/21.
 //  Copyright © 2016年 ctw. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "LLPerson.h"
 
-@interface ViewController : UIViewController
-
+@implementation LLPerson
 
 @end
-

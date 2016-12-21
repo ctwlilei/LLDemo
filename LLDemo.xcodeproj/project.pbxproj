@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		E473A4F21E0A31CE00AFCD91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E473A4F11E0A31CE00AFCD91 /* main.m */; };
 		E473A4F51E0A31CE00AFCD91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E473A4F41E0A31CE00AFCD91 /* AppDelegate.m */; };
-		E473A4F81E0A31CE00AFCD91 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E473A4F71E0A31CE00AFCD91 /* ViewController.m */; };
-		E473A4FB1E0A31CE00AFCD91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E473A4F91E0A31CE00AFCD91 /* Main.storyboard */; };
 		E473A4FD1E0A31CE00AFCD91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E473A4FC1E0A31CE00AFCD91 /* Assets.xcassets */; };
-		E473A5001E0A31CE00AFCD91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E473A4FE1E0A31CE00AFCD91 /* LaunchScreen.storyboard */; };
+		E473A51B1E0A776100AFCD91 /* LLDemoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E473A5191E0A776100AFCD91 /* LLDemoListViewController.m */; };
+		E473A51C1E0A776100AFCD91 /* LLDemoListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E473A51A1E0A776100AFCD91 /* LLDemoListViewController.xib */; };
+		E473A51F1E0A7A0E00AFCD91 /* LLTestCopyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E473A51E1E0A7A0E00AFCD91 /* LLTestCopyViewController.m */; };
+		E473A5221E0A7A7000AFCD91 /* LLPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = E473A5211E0A7A7000AFCD91 /* LLPerson.m */; };
+		E473A5251E0A7D5B00AFCD91 /* LLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E473A5241E0A7D5B00AFCD91 /* LLBaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +22,17 @@
 		E473A4F11E0A31CE00AFCD91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E473A4F31E0A31CE00AFCD91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E473A4F41E0A31CE00AFCD91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E473A4F61E0A31CE00AFCD91 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E473A4F71E0A31CE00AFCD91 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E473A4FA1E0A31CE00AFCD91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E473A4FC1E0A31CE00AFCD91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E473A4FF1E0A31CE00AFCD91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E473A5011E0A31CE00AFCD91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E473A5181E0A776100AFCD91 /* LLDemoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLDemoListViewController.h; sourceTree = "<group>"; };
+		E473A5191E0A776100AFCD91 /* LLDemoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLDemoListViewController.m; sourceTree = "<group>"; };
+		E473A51A1E0A776100AFCD91 /* LLDemoListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLDemoListViewController.xib; sourceTree = "<group>"; };
+		E473A51D1E0A7A0E00AFCD91 /* LLTestCopyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLTestCopyViewController.h; sourceTree = "<group>"; };
+		E473A51E1E0A7A0E00AFCD91 /* LLTestCopyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLTestCopyViewController.m; sourceTree = "<group>"; };
+		E473A5201E0A7A7000AFCD91 /* LLPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLPerson.h; sourceTree = "<group>"; };
+		E473A5211E0A7A7000AFCD91 /* LLPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLPerson.m; sourceTree = "<group>"; };
+		E473A5231E0A7D5B00AFCD91 /* LLBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLBaseViewController.h; sourceTree = "<group>"; };
+		E473A5241E0A7D5B00AFCD91 /* LLBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLBaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +67,13 @@
 			children = (
 				E473A4F31E0A31CE00AFCD91 /* AppDelegate.h */,
 				E473A4F41E0A31CE00AFCD91 /* AppDelegate.m */,
-				E473A4F61E0A31CE00AFCD91 /* ViewController.h */,
-				E473A4F71E0A31CE00AFCD91 /* ViewController.m */,
-				E473A4F91E0A31CE00AFCD91 /* Main.storyboard */,
+				E473A5231E0A7D5B00AFCD91 /* LLBaseViewController.h */,
+				E473A5241E0A7D5B00AFCD91 /* LLBaseViewController.m */,
+				E473A5181E0A776100AFCD91 /* LLDemoListViewController.h */,
+				E473A5191E0A776100AFCD91 /* LLDemoListViewController.m */,
+				E473A51A1E0A776100AFCD91 /* LLDemoListViewController.xib */,
+				E473A5171E0A76EA00AFCD91 /* 测试copy */,
 				E473A4FC1E0A31CE00AFCD91 /* Assets.xcassets */,
-				E473A4FE1E0A31CE00AFCD91 /* LaunchScreen.storyboard */,
 				E473A5011E0A31CE00AFCD91 /* Info.plist */,
 				E473A4F01E0A31CE00AFCD91 /* Supporting Files */,
 			);
@@ -77,6 +86,17 @@
 				E473A4F11E0A31CE00AFCD91 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E473A5171E0A76EA00AFCD91 /* 测试copy */ = {
+			isa = PBXGroup;
+			children = (
+				E473A51D1E0A7A0E00AFCD91 /* LLTestCopyViewController.h */,
+				E473A51E1E0A7A0E00AFCD91 /* LLTestCopyViewController.m */,
+				E473A5201E0A7A7000AFCD91 /* LLPerson.h */,
+				E473A5211E0A7A7000AFCD91 /* LLPerson.m */,
+			);
+			path = "测试copy";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +158,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E473A5001E0A31CE00AFCD91 /* LaunchScreen.storyboard in Resources */,
 				E473A4FD1E0A31CE00AFCD91 /* Assets.xcassets in Resources */,
-				E473A4FB1E0A31CE00AFCD91 /* Main.storyboard in Resources */,
+				E473A51C1E0A776100AFCD91 /* LLDemoListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,32 +170,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E473A4F81E0A31CE00AFCD91 /* ViewController.m in Sources */,
+				E473A5221E0A7A7000AFCD91 /* LLPerson.m in Sources */,
 				E473A4F51E0A31CE00AFCD91 /* AppDelegate.m in Sources */,
+				E473A51B1E0A776100AFCD91 /* LLDemoListViewController.m in Sources */,
+				E473A5251E0A7D5B00AFCD91 /* LLBaseViewController.m in Sources */,
 				E473A4F21E0A31CE00AFCD91 /* main.m in Sources */,
+				E473A51F1E0A7A0E00AFCD91 /* LLTestCopyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		E473A4F91E0A31CE00AFCD91 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E473A4FA1E0A31CE00AFCD91 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E473A4FE1E0A31CE00AFCD91 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E473A4FF1E0A31CE00AFCD91 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E473A5021E0A31CE00AFCD91 /* Debug */ = {
@@ -276,6 +279,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ctw.galileio.LLDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -288,6 +292,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ctw.galileio.LLDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -310,6 +315,7 @@
 				E473A5061E0A31CE00AFCD91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
